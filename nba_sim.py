@@ -113,12 +113,12 @@ class Team:
         
         # This is the core of the project and the function that took by FAR the most time.
         # I had to research the rules, iron out countless glitches, and design a system
-        # from scratch that fairly and accurrately simulates a singular basketball possession.
+        # from scratch that fairly and accurately simulates a singular basketball possession.
         
         # The code is far from perfect. Blocks and steals occur often in unrealistic situations,
         # centers get a few too many rebounds, and a few more small inaccuracies. I intend to fix
         # these issues one day, but overall I am happy with how the code functions. If you are not a 
-        # basketball enthusiest, you will likely not notice any issues with the function.
+        # basketball enthusiast, you will likely not notice any issues with the function.
         
         output_str = ""
         
@@ -276,7 +276,7 @@ def initialize_teams():
     # Order of stats: name, fg, three_pt_fg, three_pt_rate, p, r, a, s, b, to, shots_taken, shots_made, threes_taken, threes_made.
     # Most of these stats do not require input, as they are automatically set to 0.
     
-    # Players are assigned to either thier first or last name depending on which is more recognizable.
+    # Players are assigned to either their first or last name depending on which is more recognizable.
     # I am aware this is a bad system for a group project, but as a basketball nerd, it's the easiest system for me.
     
     
@@ -304,7 +304,7 @@ def initialize_teams():
     w_dict = {'pg': steph, 'sg': klay, 'sf': barnes, 'pf': draymond, 'c': bogut}
     
     # These numbers are the player shooting rates. I calculated them through doing research and finding the frequency of how often the first
-    # player in the players' dictinary shot the ball for their team, then subtracting that frequency from 1. Then, I found
+    # player in the players' dictionary shot the ball for their team, then subtracting that frequency from 1. Then, I found
     # the second player's frequency, and subtracted it from the first number. I repeated this until the number reached 0.
     
     # I'll give an example for the Warriors shooting splits. First, a number between 0 and 1 is generated.
